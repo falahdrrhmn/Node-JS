@@ -20,8 +20,20 @@
   node contohFile.js
   ```
   nanti lokal web server bakal jalan, kalo matiinnya make **CTRL + C**
+
+- Modules
+  Modules bisa dianggap sebagai library seperti halnya dalam javascript, yakni merupakan satu set fungsi yang ingin digunakan pada aplikasi anda
+
+- Modul bawaan
+  Dalam node js ada modul bawaan yang bisa digunakan tanpa instalasi lebih lanjut
   
-- Cara bikin module sendirii
+- Cara manggil modul
+
+  ```js
+  var http = require('http');
+  ```
+  
+- Cara bikin modul sendirii
 
   ```js
   var http = require('http');
