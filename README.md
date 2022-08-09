@@ -14,6 +14,12 @@
   }).listen(8080);
 
   ```
+
+- Cara run node js make terminal
+  ```ssh
+  node contohFile.js
+  ```
+  nanti lokal web server bakal jalan, kalo matiinnya make **CTRL + C**
   
 - Cara bikin module sendirii
 
